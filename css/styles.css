@@ -242,7 +242,7 @@ body {
 }
 
 .wsk-cp-img img {
-  width: 80%;
+  width: 80%; 
   border-radius: 6px;
 }
 
@@ -351,12 +351,22 @@ strike {
   }
 
   .wsk-cp-product .wsk-cp-img {
+<<<<<<< HEAD
     top: -40px;
+=======
+      width:50%;
+      top: 20px;
+>>>>>>> e130403980f91331c2d82f9c34929602d9bb0c3f
   }
 
   .wsk-cp-product .wsk-cp-img img {
+<<<<<<< HEAD
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
       0 15px 12px rgba(0, 0, 0, 0.22);
+=======
+      filter: box-shadow 0 19px 38px rgba(0, 0, 0, 0.3),
+          0 15px 12px rgba(0, 0, 0, 0.22);
+>>>>>>> e130403980f91331c2d82f9c34929602d9bb0c3f
   }
 
   .wsk-cp-product .wsk-cp-text .category>span {
@@ -466,6 +476,7 @@ strike {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .subscribe-div {
   display: flex;
 
@@ -500,4 +511,17 @@ strike {
 .subscribe-btn:hover {
   color: white;
   text-decoration: none;
+=======
+.marque-bot{
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(90deg, rgba(104,240,120,1) 0%, rgba(124,223,112,1) 100%);
+
+}
+
+.scrolling-bottom{
+  padding: 1em;
+  font-weight: bold;
+  font-size: larger;
+>>>>>>> e130403980f91331c2d82f9c34929602d9bb0c3f
 }
