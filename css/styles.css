@@ -512,9 +512,12 @@ strike {
 
 .subscribe-div {
   display: flex;
+}
 
-  flex-shrink: 1;
-
+@media(max-width:860px) {
+  .subscribe-div {
+    padding-left: 2em;
+  }
 }
 
 .email-input {
