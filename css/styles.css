@@ -351,22 +351,13 @@ strike {
   }
 
   .wsk-cp-product .wsk-cp-img {
-<<<<<<< HEAD
-    top: -40px;
-=======
       width:50%;
       top: 20px;
->>>>>>> e130403980f91331c2d82f9c34929602d9bb0c3f
   }
 
   .wsk-cp-product .wsk-cp-img img {
-<<<<<<< HEAD
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
-      0 15px 12px rgba(0, 0, 0, 0.22);
-=======
       filter: box-shadow 0 19px 38px rgba(0, 0, 0, 0.3),
           0 15px 12px rgba(0, 0, 0, 0.22);
->>>>>>> e130403980f91331c2d82f9c34929602d9bb0c3f
   }
 
   .wsk-cp-product .wsk-cp-text .category>span {
@@ -476,42 +467,6 @@ strike {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-.subscribe-div {
-  display: flex;
-
-  flex-shrink: 1;
-
-}
-
-.email-input {
-  margin-bottom: 2em;
-  padding: 0.5em;
-  border: solid 1px #BEBEBE;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-
-.subscribe-btn {
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  align-self: flex-start;
-  /* By this extra padding of subscribe button gets removed */
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  background: #6CC4A1;
-  padding: 6px 15px 6px 15px;
-  text-decoration: none;
-  border: #6CC4A1;
-}
-
-.subscribe-btn:hover {
-  color: white;
-  text-decoration: none;
-=======
 .marque-bot{
   padding: 0px;
   margin: 0px;
@@ -523,5 +478,4 @@ strike {
   padding: 1em;
   font-weight: bold;
   font-size: larger;
->>>>>>> e130403980f91331c2d82f9c34929602d9bb0c3f
 }
