@@ -34,8 +34,19 @@ body {
 }
 
 .menu-text {
+  padding: 10px;
   margin-left: 2em;
   color: black;
+  z-index: 4;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media(max-width:900px) {
+  .menu-text {
+    background-color: #F8F9FA;
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.75);
+  }
 }
 
 .nav-item {
@@ -61,6 +72,10 @@ body {
 
 .btn-shop:hover {
   text-decoration: none;
+}
+
+.slideshow-top {
+  z-index: -1;
 }
 
 /****************************************************************/
@@ -191,6 +206,177 @@ body {
   }
 }
 
+
+/* Blockbuster */
+.blockbuster {
+  background-color: #f2fafb;
+  padding-bottom: 4em;
+}
+
+.blockbuster .heading {
+  padding-top: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.shell {
+  padding: 8px 0;
+}
+
+.wsk-cp-product {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  position: relative;
+  margin: 10px 0px;
+}
+
+.wsk-cp-img {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 60%;
+  padding: 10px;
+}
+
+.wsk-cp-img img {
+  width: 80%; 
+  border-radius: 6px;
+}
+
+.wsk-cp-text {
+  padding-top: 80%;
+}
+
+.wsk-cp-text .category {
+  text-align: center;
+  font-size: 10px;
+  font-weight: normal;
+  padding: 5px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.wsk-cp-text .category>* {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-100%, -100%);
+}
+
+.wsk-cp-text .category>span {
+  padding: 10px 10px;
+  border: 1px solid #313131;
+  background: white;
+  color: black;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 7px;
+}
+
+.wsk-cp-text .title-product {
+  padding-bottom: 0.8em;
+  text-align: left;
+}
+
+.wsk-cp-text .title-product h3 {
+  font-size: 1.1em;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  margin: 1px;
+  overflow: wrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.wsk-cp-text .description-prod p {
+  margin: 0;
+}
+
+/* Truncate */
+.wsk-cp-text .description-prod {
+  text-align: left;
+  width: 100%;
+
+  overflow: hidden;
+  margin-bottom: 1px;
+}
+
+.card-footer:after,
+.card-footer:before {
+  content: "";
+  display: table;
+}
+
+.card-footer:after {
+  clear: both;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+strike {
+  font-weight: lighter;
+}
+
+.discount {
+  color: red;
+  display: inline;
+}
+
+.wcf-right {
+  text-align: center;
+}
+
+.btn-buy {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  width: 100%;
+  color: #000000;
+  font-size: 16px;
+  background: #ffffff;
+  padding: 10px 40px 10px 40px;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  .wsk-cp-product {
+    margin: 40px auto;
+  }
+
+  .wsk-cp-product .wsk-cp-img {
+      width:50%;
+      top: 20px;
+  }
+
+  .wsk-cp-product .wsk-cp-img img {
+      filter: box-shadow 0 19px 38px rgba(0, 0, 0, 0.3),
+          0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+
+  .wsk-cp-product .wsk-cp-text .category>span {
+    border-color: #ddd;
+    box-shadow: none;
+    padding: 11px 28px;
+  }
+
+  .wsk-cp-product .wsk-cp-text .category {
+    margin-top: 0px;
+  }
+
+  a.buy-btn {
+    border-color: #ff9800;
+    background: #ff9800;
+    color: #fff;
+  }
+}
+
 /*************************************************************/
 
 #pros {
@@ -257,9 +443,72 @@ body {
 }
 
 
-
 @media (max-width:800px) {
   .testi3-line {
     padding: 1em;
   }
+}
+
+/*************************************************/
+.footer-div-1 {
+  padding: 0em;
+  color: #0C0000;
+  width: 450px;
+}
+
+.footer-div-2-3-4 {
+  color: #0C0000;
+  text-decoration: none;
+  padding: 0em;
+}
+
+.quick-text {
+  color: #0C0000;
+  text-decoration: none;
+}
+
+.subscribe-div {
+  display: flex;
+
+  flex-shrink: 1;
+
+}
+
+.email-input {
+  margin-bottom: 2em;
+  padding: 0.5em;
+  border: solid 1px #BEBEBE;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.subscribe-btn {
+  align-self: flex-start;
+  /* By this extra padding of subscribe button gets removed */
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #6CC4A1;
+  padding: 6px 15px 6px 15px;
+  text-decoration: none;
+  border: #6CC4A1;
+}
+
+.subscribe-btn:hover {
+  color: white;
+  text-decoration: none;
+}
+.marque-bot{
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(90deg, rgba(104,240,120,1) 0%, rgba(124,223,112,1) 100%);
+
+}
+
+.scrolling-bottom{
+  padding: 1em;
+  font-weight: bold;
+  font-size: larger;
 }
