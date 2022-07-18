@@ -466,6 +466,13 @@ strike {
 }
 
 
+@media (max-width:860px) {
+  #above-footer {
+    padding: 1em;
+  }
+}
+
+
 /*********************************************************/
 .marque-bot {
   padding: 0px;
