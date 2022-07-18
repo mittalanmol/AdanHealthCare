@@ -263,3 +263,17 @@ body {
     padding: 1em;
   }
 }
+
+p {
+  color: #0C0000;
+}
+
+.footer-try {
+  color: #0C0000;
+  text-decoration: none;
+}
+
+.quick-text {
+  color: #0C0000;
+  text-decoration: none;
+}
