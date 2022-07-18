@@ -237,7 +237,7 @@ text-align: center;
   padding: 10px;
 }
 .wsk-cp-img img {
-  width: 80%;
+  width: 80%; 
   border-radius: 6px;
 }
 
@@ -335,10 +335,11 @@ strike {
       margin: 40px auto;
   }
   .wsk-cp-product .wsk-cp-img {
-      top: -40px;
+      width:50%;
+      top: 20px;
   }
   .wsk-cp-product .wsk-cp-img img {
-      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+      filter: box-shadow 0 19px 38px rgba(0, 0, 0, 0.3),
           0 15px 12px rgba(0, 0, 0, 0.22);
   }
   .wsk-cp-product .wsk-cp-text .category > span {
@@ -442,4 +443,17 @@ p {
 .quick-text {
   color: #0C0000;
   text-decoration: none;
+}
+
+.marque-bot{
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(90deg, rgba(104,240,120,1) 0%, rgba(124,223,112,1) 100%);
+
+}
+
+.scrolling-bottom{
+  padding: 1em;
+  font-weight: bold;
+  font-size: larger;
 }
