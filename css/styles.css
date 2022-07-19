@@ -26,7 +26,6 @@ body {
 
 /************************************************************/
 
-/* #main {} */
 
 .container-fluid {
   height: 50px;
@@ -78,6 +77,29 @@ body {
   z-index: -1;
 }
 
+@media(min-width:880px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/* use min-width so that it hides at laptop size */
+
+
+.nav-icons {
+  display: flex;
+  padding: 0%;
+  justify-content: center;
+  background-color: rgba(217, 248, 196, 0.2);
+}
+
+.icon1 {
+  font-size: larger;
+  color: #BEBEBE;
+  font-size: small;
+  padding: .5em 2em;
+}
+
 /****************************************************************/
 
 #category {
@@ -106,7 +128,7 @@ body {
   margin-right: 20%; */
 }
 
-@media (max-width:800px){
+@media (max-width:800px) {
   .catg-img {
     width: 160px;
     padding: 0em .2em;
@@ -114,7 +136,8 @@ body {
     margin-right: 20%; */
   }
 }
-@media (max-width:400px){
+
+@media (max-width:400px) {
   .catg-img {
     width: 150px;
     padding: .2em .2em;
