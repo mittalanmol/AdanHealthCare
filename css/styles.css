@@ -271,6 +271,8 @@ body {
   margin: 10px 0px;
 }
 
+
+
 .wsk-cp-img {
   position: absolute;
   top: 5px;
@@ -415,6 +417,18 @@ strike {
     color: #fff;
   }
 }
+
+/* @media screen and (max-width: 575px) {
+  .wsk-cp-product {
+    margin: 40px 0px;
+    width:50%
+  }
+
+  .wsk-cp-product .wsk-cp-img {
+    width: 20%;
+    top: 20px;
+  }
+} */
 
 /*************************************************************/
 
