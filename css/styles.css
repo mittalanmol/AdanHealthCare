@@ -532,7 +532,7 @@ strike {
 
 @media(max-width:860px) {
   .subscribe-div {
-    padding-left: 2em;
+    justify-content: center;
   }
 }
 
