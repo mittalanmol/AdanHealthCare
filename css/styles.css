@@ -313,7 +313,8 @@ body {
   background: white;
   color: black;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-  border-radius: 7px;
+  border-radius: 5px;
+
 }
 
 .wsk-cp-text .title-product {
@@ -422,8 +423,23 @@ strike {
   .wsk-cp-product .wsk-cp-text .category>span {
     border-color: #ddd;
     box-shadow: none;
-    padding: 5px 10px;
-    font-size: 8px;
+    padding: 5px 9px;
+    font-size: 6px;
+  }
+
+  .btn-buy {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    width: 100%;
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 1px;
+    text-decoration: none;
   }
 }
 
