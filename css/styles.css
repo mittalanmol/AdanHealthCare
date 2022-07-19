@@ -77,8 +77,20 @@ body {
   z-index: -1;
 }
 
+.navbar-icons-laptop {
+  display: flex;
+}
+
 @media(min-width:880px) {
   .mobile-nav {
+    display: none;
+  }
+
+}
+
+@media(max-width:880px) {
+
+  .navbar-icons-laptop {
     display: none;
   }
 }
