@@ -81,7 +81,7 @@ body {
 /****************************************************************/
 
 #category {
-  padding: 3em;
+  padding: 2em 1em;
 }
 
 .category-heading {
@@ -91,9 +91,8 @@ body {
 
 .pop-category {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  margin: 0 6em;
+  justify-content: center;
 }
 
 .pop-category-card {
@@ -102,9 +101,26 @@ body {
 
 .catg-img {
   width: 400px;
-  padding: 2em 1em;
+  padding: 1em 1.3em;
   /* margin-left: 20%;
   margin-right: 20%; */
+}
+
+@media (max-width:800px){
+  .catg-img {
+    width: 160px;
+    padding: 0em .2em;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+  }
+}
+@media (max-width:400px){
+  .catg-img {
+    width: 150px;
+    padding: .2em .2em;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+  }
 }
 
 /*************************************************/
