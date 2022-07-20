@@ -11,11 +11,22 @@ body {
 
 /*****************************************************/
 #header {
-  background-color: #02262a;
+  background-color: #02262a !important;
   padding: 0.2em 0em 0em;
   text-align: center;
+  position: fixed;
+  width: 100vw;
+  right: 15px;
+  z-index: 2;
 }
 
+@media(max-width:880px) {
+  #header {
+    right: 0;
+  }
+}
+
+/* header div getting empty space from right in mobile view so to solve this gives right=0 */
 
 .header-text {
   font-family: 'Nunito Sans', sans-serif;
@@ -27,10 +38,40 @@ body {
 /************************************************************/
 
 
+.whole-content {
+  padding-top: 5.7em;
+}
+
+/* We have moved the whole content below navbar so that it does not hide by navbar */
+
+@media(max-width:880px) {
+  .whole-content {
+    padding-top: 7.58em;
+  }
+}
+
 .container-fluid {
   height: 50px;
   margin-left: 3em;
 }
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  top: 25px;
+  right: 15px;
+  z-index: 2;
+}
+
+/* have fixed the navbar section */
+
+@media(max-width:880px) {
+  .navbar {
+    right: 0;
+  }
+}
+
 
 .menu-text {
   padding: 10px;
@@ -81,12 +122,16 @@ body {
   display: flex;
 }
 
+
+
 @media(min-width:880px) {
-  .mobile-nav {
+  .navbar-icons-mobile {
     display: none;
   }
-
 }
+
+/* When we switched to laptop section the icons we made for mobile disapper as their display is none. */
+/* use min-width so that it hides at laptop size */
 
 @media(max-width:880px) {
 
@@ -95,14 +140,19 @@ body {
   }
 }
 
-/* use min-width so that it hides at laptop size */
-
-
 .nav-icons {
   display: flex;
-  padding: 0%;
   justify-content: center;
-  background-color: rgba(217, 248, 196, 0.2);
+  background-color: #EEEEEE;
+  position: fixed;
+  margin-top: 3.175em;
+  padding: 0%;
+  top: 39px;
+  width: 100vw;
+  z-index: 2;
+
+  /* z-index so that our div becomes above the other content.
+   the other margins ,padding etc are to make look better without overlapping */
 }
 
 .icon1 {
