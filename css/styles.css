@@ -212,7 +212,7 @@ body {
   padding: 0%;
   top: 39px;
   width: 100vw;
-  z-index: 2;
+  z-index: 1;
 
   /* z-index so that our div becomes above the other content.
    the other margins ,padding etc are to make look better without overlapping */
