@@ -62,9 +62,17 @@ body {
     z-index: 2;
 }
 
+.navbar-brand-top {
+    /* Hit this so two logos are not visible in computer view */
+    display: none;
+}
+
 /* have fixed the navbar section */
 
 @media (max-width: 880px) {
+    .navbar-brand-top {
+        display: block;
+    }
     .navbar {
         right: 0;
     }
