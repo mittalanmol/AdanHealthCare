@@ -68,12 +68,17 @@ body {
 }
 
 /* have fixed the navbar section */
-
+.navbar-brand img {
+    width: 100%;
+}
 @media (max-width: 880px) {
     .navbar-brand-top {
         display: block;
+        width: 50%;
     }
-
+    .navbar-brand img {
+        width: 50%;
+    }
     .navbar {
         right: 0;
     }
