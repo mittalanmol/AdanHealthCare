@@ -643,12 +643,7 @@ strike {
 .testi-img {
     padding-top: 1em;
     width: 150px;
-}
-
-.testi1-line {
-    padding-top: 1em;
-    color: #45353e;
-    font-weight: bold;
+    border-radius: 100%;
 }
 
 .testi3-line {
