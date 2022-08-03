@@ -795,6 +795,7 @@ strike {
     background-color: #6CC4A1;
 }
 
+
 .copyright-text {
     color: #ffffff;
     margin-left: 2em;
@@ -803,4 +804,20 @@ strike {
 
 .copyright-img {
     margin-left: 58em;
+}
+
+@media(max-width:880px) {
+    .copyright-div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .copyright-text {
+        margin-left: 0em;
+    }
+
+    .copyright-img {
+        margin-left: 0em;
+    }
 }
