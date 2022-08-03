@@ -787,3 +787,20 @@ strike {
     font-size: 24px;
     margin: 0px;
 }
+
+/*********************Copyright********************************/
+
+#copyright {
+    padding: 1em 0em 0.5em 0em;
+    background-color: #6CC4A1;
+}
+
+#copyright p {
+    color: #ffffff;
+    margin-left: 2em;
+    display: inline-block;
+}
+
+#copyright img {
+    margin-left: 58em;
+}
