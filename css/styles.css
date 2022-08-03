@@ -795,12 +795,12 @@ strike {
     background-color: #6CC4A1;
 }
 
-#copyright p {
+.copyright-text {
     color: #ffffff;
     margin-left: 2em;
     display: inline-block;
 }
 
-#copyright img {
+.copyright-img {
     margin-left: 58em;
 }
