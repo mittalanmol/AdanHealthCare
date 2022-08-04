@@ -38,7 +38,7 @@ body {
 /************************************************************/
 
 .whole-content {
-    padding-top: 5.7em;
+    padding-top: 5.05em;
 }
 
 /* We have moved the whole content below navbar so that it does not hide by navbar */
@@ -344,6 +344,12 @@ body {
     height: 80px;
 }
 
+.plant-img4 {
+    margin-bottom: 1em;
+    padding: 0em 0em 1em 3em;
+    height: 80px;
+}
+
 .plant-img-text {
     display: inline-block;
     font-weight: bold;
@@ -367,6 +373,10 @@ body {
     }
 
     .plant-img2 {
+        padding-left: 1em;
+    }
+
+    .plant-img4 {
         padding-left: 1em;
     }
 }
